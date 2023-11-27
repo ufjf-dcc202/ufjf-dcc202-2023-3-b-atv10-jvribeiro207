@@ -1,17 +1,11 @@
-export
+import { deJoaoParaMaria, getJoao, getMaria } from "./joaoEMaria.js";
 
+console.log('módulo main')
 
-function deJoaoParaMaria(){
+console.log('João tem ', getJoao(), ' maçãs!');
+console.log('Maria tem ', getMaria(), ' maçãs!');
 
-}
+deJoaoParaMaria();
 
-function deMariaParaJoao(){
-
-}
-
-function getJoao(){
-
-}
-function getMaria(){
-
-}
+console.log('João tem ', getJoao(), ' maçãs!');
+console.log('Maria tem ', getMaria(), ' maçãs!');
